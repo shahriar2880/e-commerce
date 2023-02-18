@@ -1,0 +1,17 @@
+footer {
+    background-color: black;
+}
+
+footer {
+    border-top: 1px solid rgb(10, 56, 10);
+}
+
+footer .input-group-text {
+    background-color: black;
+    color: antiquewhite;
+    padding: 8px;
+}
+
+footer .gap-30 {
+    gap: 30px;
+}
