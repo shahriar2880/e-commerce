@@ -96,35 +96,35 @@ const Home = () => {
             <div className="col-12">
               <div className="services d-flex align-item-center justify-content-between">
                 <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service.png" alt="" />
+                  <img style={{height:'44px', width:'50px'}} src="/images/free-delivery.png" alt="" />
                   <div>
                     <h6>Free Shipping</h6>
                     <p className="mb-0">From all orders over 5$</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service-02.png" alt="" />
+                  <img style={{height:'44px', width:'50px'}} src="/images/gift-box.png" alt="" />
                   <div>
                     <h6>Daily Surprise Offers</h6>
                     <p className="mb-0">Save upto 25% off</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service-03.png" alt="" />
+                  <img style={{height:'44px', width:'50px'}} src="/images/24-hours-support.png" alt="" />
                   <div>
                     <h6>Support 24/7</h6>
                     <p className="mb-0">Shop with an expert</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service-04.png" alt="" />
+                  <img style={{height:'44px', width:'50px'}} src="/images/affordable.png" alt="" />
                   <div>
                     <h6>Affordable Prices</h6>
                     <p className="mb-0">Get Factory Default Prices</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-                  <img src="/images/service-05.png" alt="" />
+                  <img style={{height:'44px', width:'50px'}} src="/images/secure-payment.png" alt="" />
                   <div>
                     <h6>Secure Payment</h6>
                     <p className="mb-0">100% Protected Payment</p>
@@ -220,7 +220,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img
-                  src="images/famous-1.webp"
+                  src="images/famous-1.png"
                   className="img-fluid"
                   alt="famous"
                 />
@@ -234,7 +234,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img
-                  src="images/famous-2.webp"
+                  src="images/famous-2.png"
                   className="img-fluid"
                   alt="famous"
                 />
@@ -248,7 +248,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img
-                  src="images/famous-3.webp"
+                  src="images/famous-3.png"
                   className="img-fluid"
                   alt="famous"
                 />
@@ -265,7 +265,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img
-                  src="images/famous-3.webp"
+                  src="images/famous-4.png"
                   className="img-fluid"
                   alt="famous"
                 />

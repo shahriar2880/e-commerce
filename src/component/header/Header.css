@@ -1,14 +1,14 @@
 .header-top-strip {
-    background-color: black;
+    background-color: rgb(74, 65, 65);
     border-bottom: 1px solid rgb(68, 56, 56);
 }
 
 .header-upper {
-    background-color: rgb(20, 17, 17);
+    background-color: rgb(28, 36, 73);
 }
 
 .header-upper .input-group-text {
-    background-color: rgb(215, 181, 117);
+    background-color: rgba(171, 243, 94, 0.751);
 }
 
 .header-upper .header-upper-links img {
@@ -69,5 +69,5 @@
 
 .header-bottom .dropdown-item:hover {
     background-color: transparent;
-    color: blueviolet !important;
+    color: rgb(141, 69, 208) !important;
 }

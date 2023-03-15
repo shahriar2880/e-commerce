@@ -12,12 +12,10 @@ const BlogCard = () => {
                 <p className="date">1 Dec, 2022</p>
                 <h5 className="title">A beautiful sunday morning renaissance</h5>
                 <p className="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quaerat
-                accusamus officia
+                    The first step to using social media to generate sales
+                    is to create a social media strategy. 
                 </p>
-                <Link to="/blog/:id" className="button">
-                Read More
-                </Link>
+                <Link to="/blog/:id" className="button">Read More</Link>
             </div>
         </div>
     );

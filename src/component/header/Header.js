@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsFillTelephoneFill, BsSearch } from "react-icons/bs";
+import { BsCart4, BsFillPersonFill, BsFillTelephoneFill, BsHeart, BsSearch } from "react-icons/bs";
 import "./Header.css";
 
 const Header = () => {
@@ -27,12 +27,12 @@ const Header = () => {
       <header className="header-upper py-3">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-2 ">
+            {/* <div className="col-2 ">
               <h3>
                 <Link className="text-white">E-shop</Link>
               </h3>
-            </div>
-            <div className="col-5">
+            </div> */}
+            <div className="col-7">
               <div className="input-group">
                 <input
                   type="text"
@@ -42,7 +42,7 @@ const Header = () => {
                   aria-describedby="basic-addon2"
                 />
                 <span className="input-group-text p-3" id="basic-addon2">
-                  <BsSearch className="fs-6" />
+                <img style={{height:'24px', width:'30px'}} src="/images/search.png" alt="" />
                 </span>
               </div>
             </div>
@@ -50,7 +50,7 @@ const Header = () => {
               <div className="header-upper-links d-flex align-item-center justify-content-between">
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img src="/images/compare.svg" alt="compare" />
+                    <img src="/images/compare.png" alt="compare" />
                     <p className="mb-0">
                       Compare <br /> Products
                     </p>
@@ -58,7 +58,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img src="/images/wishlist.svg" alt="wishlist" />
+                  <img src="/images/wishlist.png" alt="compare" />
                     <p className="mb-0">
                       Favorite <br /> Wishlist
                     </p>
@@ -66,7 +66,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img src="/images/user.svg" alt="user" />
+                  <img src="/images/user.png" alt="compare" />
                     <p className="mb-0">
                       Login <br />
                       My Account
@@ -75,7 +75,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
-                    <img src="/images/cart.svg" alt="cart" />
+                  <img src="/images/addToCart.png" alt="compare" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
                       <p className="mb-0">$000</p>
@@ -128,7 +128,7 @@ const Header = () => {
                 </div>
                 <div className="menu-links">
                   <div className="d-flex align-item-center gap-15">
-                    <Link to="/home">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/store">Our-Products</Link>
                     <Link to="/blogs">Blogs</Link>
                     <Link to="/contact">Contact</Link>

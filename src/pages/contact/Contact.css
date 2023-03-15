@@ -1,0 +1,35 @@
+.contact-inner-wrapper {
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: violet;
+    gap: 15px;
+}
+
+
+/* .contact-inner-wrapper .bg_url {
+    background: url(/public/images/contactLogo.png);
+} */
+
+.contact-title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+}
+
+.contact-inner-wrapper form .form-control {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 10px;
+}
+
+.contact-inner-wrapper ul {
+    list-style: none;
+}
+
+.contact-inner-wrapper address,
+.contact-inner-wrapper a,
+.contact-inner-wrapper p {
+    color: rgb(83, 3, 162);
+}
